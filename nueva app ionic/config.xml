@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="io.cordova.myapp53a667" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" xmlns:cdv="http://cordova.apache.org/ns/1.0" defaultlocale="es">
   <name>Parral App</name>
-  <description>Aplicación móvil de los lugares turísticos de Hidalgo del Parral,Chihuahua</description>
+  <description>Aplicación móvil con los lugares turísticos de Hidalgo del Parral,Chihuahua</description>
   <author email="vscordovatools@microsoft.com" href="http://taco.visualstudio.com">Jesús Vázquez</author>
   <vs:toolsetVersion>6.3.1</vs:toolsetVersion>
   <vs:template-name>Ionic 2 Tabs</vs:template-name>
