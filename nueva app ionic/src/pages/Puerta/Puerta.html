@@ -1,0 +1,41 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Puerta Del Tiempo</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <!--style="font-family:Arial;font-style:oblique"-->
+    <ion-card>
+        <img src="assets/image/puerta/1.jpg" />
+
+        <ion-card-content>
+            <ion-card-title>
+                Puerta Del Tiempo
+            </ion-card-title>
+            <p>
+                Uno de los m&#225;s originales y representativos monumentos de Parral es esta puerta que simboliza las transiciones del tiempo,
+                espec&#237;ficamente del siglo XX al XXI. Su base son dos castillos mineros que representan el origen minero de la comunidad, en ellas hay dos rostros humanos: uno hacia el norte viendo al pasado y otro hacia el sur viendo al futuro. La obra mide 30 metros de altura, contiene 500 toneladas de acero y 300 de concreto. Bajo la puerta se encuentra la llamada "C&#225;psula del Tiempo",
+                una c&#225;mara subterr&#225;nea que guarda objetos, planes y proyectos de una generaci&#243;n. La c&#225;mara se ir&#225; abriendo cada 20 a&#241;os para ver lo que se plante&#243; en su momento y colocar nuevos planes para el futuro.
+            </p>
+        </ion-card-content>
+        <ion-card-content>
+            <ion-card-title>
+                Galer&#237;a
+            </ion-card-title>
+            <ion-slides class="image-slider" loop="true" slidesPerView="2">
+                <ion-slide *ngFor="let img of images">
+                    <img src="assets/image/puerta/{{img}}" class="thumb-img"  imageViewer />
+                </ion-slide>
+            </ion-slides>
+        </ion-card-content>
+        <!--<ion-card-content>
+            <ion-card-title>
+               Ubicaci&#243;n
+            </ion-card-title>
+            
+        </ion-card-content>-->
+   
+    </ion-card>
+
+</ion-content>

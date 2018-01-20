@@ -1,0 +1,58 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Palacio Alvarado</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-card>
+
+        <img src="assets/image/Palacio/Palacio Inicio.jpg" />
+
+        <ion-card-content>
+            <ion-card-title>
+                Palacio Alvarado
+            </ion-card-title>
+            <p>
+                Antiguo hogar de Don Pedro Alvarado, el minero m&#225;s rico de Chihuahua, el inmueble fue construido entre 1899 y 1904 
+                con un estilo ecl&#233;ctico mezclando el neobarroco, neocl&#225;sico
+                y neorrenacentista. En las m&#250;ltiples habitaciones al interior se observa la opulencia en la cual viv&#237;a este
+                gran hombre a trav&#233;s de sus muebles finos, ba&#241;os de m&#225;rmol y plata, escaleras de m&#225;rmol y muchos objetos m&#225;s.
+            </p>
+        </ion-card-content>
+        
+        <ion-card-content>
+            <ion-card-title>
+                Horario
+            </ion-card-title>
+            <p>
+                Lunes a Domingo
+            </p>
+            <p>
+                10:00 - 17:00
+            </p>
+        </ion-card-content>
+
+        <ion-card-content>
+            <ion-card-title>
+                Galer&#237;a
+            </ion-card-title>
+            <ion-slides class="image-slider" loop="true" slidesPerView="2">
+                <ion-slide *ngFor="let img of images">
+                    <img src="assets/image/Palacio/{{img}}" class="thumb-img" imageViewer />
+                </ion-slide>
+            </ion-slides>
+        </ion-card-content>
+
+       
+        <!--<ion-card-content>
+            <ion-card-title>
+                Ubicaci&#243;n
+            </ion-card-title>
+
+        </ion-card-content>-->
+
+    </ion-card>
+
+</ion-content>

@@ -1,0 +1,49 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Museo de Francisco Villa</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-card>
+
+        <img src="assets/image/museo pancho villa/Parral-13.JPG" />
+        <ion-card-content>
+            <ion-card-title>
+               Museo de Francisco Villa
+            </ion-card-title>
+            <p>
+                Esta casa que ahora es un museo de dos pisos, es el lugar en donde fue inmolado Francisco Villa en 1923. A trav&#233;s de objetos hist&#243;ricos y originales,
+                como la cama en donde fue colocado su cuerpo, y tambi&#233;n de fotograf&#237;as se narra esta parte de la historia mexicana. Cada a&#241;o en el aniversario de la muerte de Pancho Villa,
+                el 20 de julio, se hace una recreaci&#243;n de este tr&#225;gico evento. Si coincides en la fecha, es un evento que debes presenciar.
+
+            </p>
+        </ion-card-content>
+
+        <ion-card-content>
+            <ion-card-title>
+                Horario
+            </ion-card-title>
+            <p>
+                Martes a Domingo
+            </p>
+            <p>
+                10:00 - 17:00
+            </p>
+        </ion-card-content>
+
+        <ion-card-content>
+            <ion-card-title>
+                Galer&#237;a
+            </ion-card-title>
+            <ion-slides class="image-slider" loop="true" slidesPerView="2">
+                <ion-slide *ngFor="let img of images">
+                    <img src="assets/image/museo pancho villa/{{img}}" class="thumb-img" imageViewer />
+                </ion-slide>
+            </ion-slides>
+        </ion-card-content>
+
+    </ion-card>
+
+</ion-content>

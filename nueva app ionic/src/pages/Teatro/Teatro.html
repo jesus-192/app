@@ -1,0 +1,53 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Antiguo Teatro Hidalgo</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-card>
+        <img src="assets/image/teatro/principal.jpg" />
+      
+
+        <ion-card-content>
+            <ion-card-title>
+               Teatro Hidalgo
+            </ion-card-title>
+            <p>
+                En 1690, el edificio que alberga al Teatro Hidalgo, ubicado en el Barrio de Triana, pertenec&#237;a al Convento y Templo de San Francisco de As&#237;s. 
+                En 1865, las tropas liberales al mando del general Donato Guerra lo profanaron, convirti&#233;ndolo primero en cuartel y posteriormente en centro de zarzuela. 
+
+            </p>
+            <p>
+                Durante el Porfiriato se levant&#243; en ese lugar el Teatro Hidalgo, respetando los muros exteriores, habiendo sido donado por el Gobierno Federal, 
+                el cual se inaugur&#243; el s&#225;bado 25 de Agosto de 1906, por el gobernador, Don Enrique C. Creel. 
+                <!--Este teatro se estren&#243; con la opera de Giussepe Verdi “Il Trovatore”. Al d&#237;a siguiente se presentaron las obras “Tosca”, “Caballer&#237;a”, “Pagliacho” y “Fausto”.--> 
+
+            </p>
+            <p>
+                Este hermoso edificio fue otra de las asombrosas obras del arquitecto franc&#233;s Federico Am&#233;rigo Rouvier, para un cupo de 1,170 personas distribuidas en: 260 lunetas y 70 preferenciales, 
+                con un pasillo central y dos laterales; 26 plateas con 156 asientos; 14 palcos con 84 asientos y 600 asientos en las galer&#237;as, contaba con un espacioso vest&#237;bulo, amplias escalinatas, 
+                un bar. anexo y en la parte alta, un lujoso sal&#243;n de recepci&#243;n. 
+            </p>
+
+            <p>
+                Adem&#225;s de ser teatro, funcion&#243; como cine durante 5 a&#241;os, de 1923 a 1928, durante este &#250;ltimo a&#241;o, sostuvo una dur&#237;sima competencia con el teatro y cine "Alc&#225;zar", 
+                a grado tal, que una noche el Teatro Hidalgo fue incendiado intencionalmente, al ver que el p&#250;blico lo prefer&#237;a.
+            </p>
+        </ion-card-content>
+
+        <ion-card-content>
+            <ion-card-title>
+                Galer&#237;a
+            </ion-card-title>
+            <ion-slides class="image-slider" loop="true" slidesPerView="2">
+                <ion-slide *ngFor="let img of images">
+                    <img src="assets/image/teatro/{{img}}" class="thumb-img" imageViewer />
+                </ion-slide>
+            </ion-slides>
+        </ion-card-content>
+
+    </ion-card>
+
+</ion-content>

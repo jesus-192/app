@@ -1,0 +1,47 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Mina La Prieta</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-card>
+        <img src="assets/image/MINA/36-230-1-2museominaprieta.jpg" />
+       
+        <ion-card-content>
+            <ion-card-title>
+                Mina La Prieta
+            </ion-card-title>
+            <p>
+                Es b&#225;sicamente a esta mina a la que se le debe el origen de Hidalgo del Parral, pues durante el siglo XVII al descubrirse sus vetas, 
+                se convirti&#243; en el motivo del crecimiento de la ciudad colonial y el pilar econ&#243;mico del pueblo. Durante 345 a&#241;os se mantuvo abierta, 
+                finalmente se cerr&#243; debido al agua que escurre sobre las piedras. Ahora es un museo cuyo objetivo es dar a conocer la miner&#237;a de la zona por su gran importancia en la regi&#243;n.
+            </p>
+        </ion-card-content>
+        <ion-card-content>
+            <ion-card-title>
+                Horario
+            </ion-card-title>
+            <p>
+                Martes a Domingo
+            </p>
+            <p>
+                10:00 - 17:00
+            </p>
+        </ion-card-content>
+        
+        <ion-card-content>
+            <ion-card-title>
+                Galer&#237;a
+            </ion-card-title>
+            <ion-slides class="image-slider" loop="true" slidesPerView="2">
+                <ion-slide *ngFor="let img of images">
+                    <img src="assets/image/MINA/{{img}}" class="thumb-img" imageViewer />
+                </ion-slide>
+            </ion-slides>
+        </ion-card-content>
+
+    </ion-card>
+
+</ion-content>
