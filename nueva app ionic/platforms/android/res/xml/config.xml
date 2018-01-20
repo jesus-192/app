@@ -23,7 +23,7 @@
         <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
     </feature>
     <name>Parral App</name>
-    <description>Aplicación móvil de los lugares turísticos de Hidalgo del Parral,Chihuahua</description>
+    <description>Aplicación móvil con los lugares turísticos de Hidalgo del Parral,Chihuahua</description>
     <author email="vscordovatools@microsoft.com" href="http://taco.visualstudio.com">Jesús Vázquez</author>
     <vs:toolsetVersion>6.3.1</vs:toolsetVersion>
     <vs:template-name>Ionic 2 Tabs</vs:template-name>

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\jesus\Documents\Visual Studio 2017\Projects\nueva app ionic\nueva app ionic\platforms\android\CordovaLib\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\jesus\Documents\Visual Studio 2017\Projects\nueva app ionic\nueva app ionic\platforms\android\CordovaLib\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\jesus\Documents\app\nueva app ionic\platforms\android\CordovaLib\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\jesus\Documents\app\nueva app ionic\platforms\android\CordovaLib\src\debug\shaders"/></dataSet></merger>
